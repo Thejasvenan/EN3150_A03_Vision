@@ -1,13 +1,14 @@
-
 # EN3150 Assignment 03 – CNN for Image Classification
 
 ## 📌 Overview
+
 This repository contains the implementation of **Assignment 03** for EN3150.  
 The project focuses on building a **custom Convolutional Neural Network (CNN)** for image classification and comparing it with **transfer learning** using pretrained models such as ResNet and VGG.
 
 ---
 
 ## 👥 Team Members
+
 - **THEJASVENAN T 220638J (Mechatronics)** – Team Lead, CNN architecture design, integration, documentation
 - **ANANTHAKUMAR T. 220029T (Biomedical)** – Dataset selection, preprocessing, data pipeline
 - **AHILAKUMARAN T. 220017F (ENTC)** – Training scripts, optimizer experiments, loss/accuracy plots
@@ -16,6 +17,7 @@ The project focuses on building a **custom Convolutional Neural Network (CNN)** 
 ---
 
 ## 📂 Repository Structure
+
 ```
 EN3150_A03_CustomCNN_vs_TransferLearning/
 │
@@ -45,23 +47,28 @@ EN3150_A03_CustomCNN_vs_TransferLearning/
 ---
 
 ## ⚙️ Setup Instructions
+
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Thejasvenan/EN3150_A03_Vision.git
    cd EN3150_A03_Vision
    ```
 
 2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. Run preprocessing:
+
    ```bash
    python data_preprocessing/data_preprocessing.py
    ```
 
 4. Train the custom CNN:
+
    ```bash
    python training/train_cnn.py
    ```
@@ -74,6 +81,7 @@ EN3150_A03_CustomCNN_vs_TransferLearning/
 ---
 
 ## 📊 Deliverables
+
 - Custom CNN implementation and results
 - Transfer learning implementation and results
 - Comparison of models (accuracy, precision, recall, confusion matrix)
@@ -82,11 +90,16 @@ EN3150_A03_CustomCNN_vs_TransferLearning/
 ---
 
 ## 📅 Contribution Plan
-- **Week 1**: Dataset selection + preprocessing (B), CNN architecture setup (A), Training + optimizer experiments (C), evaluation metrics (D)  
+
+- **Week 1**: Dataset selection + preprocessing (B), CNN architecture setup (A), Training + optimizer experiments (C), evaluation metrics (D)
 - **Week 2**: Transfer learning implementation (D), documentation & plots (C), Report writing (all), final integration (A)
 
 ---
 
 ## 📜 License
+
 This project is for academic purposes (EN3150). All rights reserved by the authors.
+
+```
+
 ```
