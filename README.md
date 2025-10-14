@@ -100,6 +100,5 @@ EN3150_A03_CustomCNN_vs_TransferLearning/
 
 This project is for academic purposes (EN3150). All rights reserved by the authors.
 
-```
+---
 
-```
