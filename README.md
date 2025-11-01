@@ -9,73 +9,33 @@ The project focuses on building a **custom Convolutional Neural Network (CNN)** 
 
 ## 👥 Team Members
 
-- **THEJASVENAN T 220638J (Mechatronics)** – Team Lead, CNN architecture design, integration, documentation
-- **ANANTHAKUMAR T. 220029T (Biomedical)** – Dataset selection, preprocessing, data pipeline
-- **AHILAKUMARAN T. 220017F (ENTC)** – Training scripts, optimizer experiments, loss/accuracy plots
-- **SAJEEVAN S. 220545V (Electrical)** – Evaluation metrics, transfer learning implementation, model comparison
+- **THEJASVENAN T 220638J (Mechatronics)** 
+- **ANANTHAKUMAR T. 220029T (Biomedical)** 
+- **AHILAKUMARAN T. 220017F (ENTC)**
+- **SAJEEVAN S. 220545V (Electrical)**
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-EN3150_A03_CustomCNN_vs_TransferLearning/
-│
-├── data_preprocessing/        # Dataset loading, cleaning, splitting
-│   └── data_preprocessing.py
-│
-├── models/                    # CNN + pretrained models
-│   ├── cnn_model.py
-│   └── transfer_learning.py
-│
-├── training/                  # Training scripts + optimizer experiments
-│   ├── train_cnn.py
-│   ├── optimizer_comparison.py
-│   └── plots/                 # Loss/accuracy plots
-│
-├── evaluation/                # Evaluation metrics + confusion matrix
-│   ├── evaluate.py
-│   └── metrics_report.md
+EN3150_A03_Vision/
 │
 ├── report/                    # Final report, references, figures
 │   └── EN3150_A03_Report.pdf
-│
-├── README.md                  # Project overview, setup instructions
-└── requirements.txt           # Dependencies
+├── Vision_CNN.ipynb
+└── README.md                  # Project overview, setup instructions
 ```
 
 ---
 
 ## ⚙️ Setup Instructions
 
-1. Clone the repository:
+Clone the repository:
 
    ```bash
    git clone https://github.com/Thejasvenan/EN3150_A03_Vision.git
    cd EN3150_A03_Vision
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run preprocessing:
-
-   ```bash
-   python data_preprocessing/data_preprocessing.py
-   ```
-
-4. Train the custom CNN:
-
-   ```bash
-   python training/train_cnn.py
-   ```
-
-5. Evaluate the model:
-   ```bash
-   python evaluation/evaluate.py
    ```
 
 ---
@@ -89,10 +49,10 @@ EN3150_A03_CustomCNN_vs_TransferLearning/
 
 ---
 
-## 📅 Contribution Plan
+## 📅 Plan
 
-- **Week 1**: Dataset selection + preprocessing (B), CNN architecture setup (A), Training + optimizer experiments (C), evaluation metrics (D)
-- **Week 2**: Transfer learning implementation (D), documentation & plots (C), Report writing (all), final integration (A)
+- **Week 1**: Dataset selection + preprocessing, CNN architecture setup, Training + optimizer experiments, evaluation metrics
+- **Week 2**: Transfer learning implementation, documentation & plots, Report writing, final integration
 
 ---
 
