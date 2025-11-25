@@ -22,8 +22,8 @@ The project focuses on building a **custom Convolutional Neural Network (CNN)** 
 EN3150_A03_Vision/
 │
 ├── report/                    # Final report, references, figures
-│   └── EN3150_A03_Report.pdf
-├── Vision_CNN.ipynb
+│   └── PR_Project_Report.pdf
+├── PR_Assignment_03_final_code.ipynb
 └── README.md                  # Project overview, setup instructions
 ```
 
